@@ -1,0 +1,43 @@
+.resMenu{
+    @apply absolute w-full lg:hidden pt-[50px]
+}
+
+.resMenu .resMenuLogo img{
+    @apply w-[142px] md:w-[200px]
+}
+
+.resmenu_row{
+    @apply flex justify-between items-center
+}
+
+.slideMenu{
+    @apply w-full p-5 bg-brandColor absolute top-0 right-0;
+    animation: popmenu linear 1s;
+}
+
+@keyframes popmenu {
+    0%{
+        top: -400px
+    }
+    100%{
+        top: 0px
+    }
+    
+}
+
+.menuIcon{
+    @apply w-[45px] h-[45px] rounded-[10px] bg-[rgba(255,255,255,0.15)] p-[7px] text-white
+}
+
+.slideMenu .cancel{
+    @apply text-2xl ml-auto
+}
+
+.slideMenu ul{
+    @apply flex flex-col gap-2.5
+}
+
+.slideMenu ul li a{
+    @apply font-montserrat font-normal text-white text-sm
+}
+

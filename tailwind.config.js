@@ -13,7 +13,10 @@ export default {
       } 
     },
     container: {
-      center: true
+      center: true,
+      padding:{
+        DEFAULT: '35px'
+      }
     },
     fontFamily:{
       'montserrat': ["Montserrat", "sans-serif"]
