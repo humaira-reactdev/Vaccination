@@ -1,3 +1,76 @@
-.banner{
-    @apply bg-[url('/images/bannerbg.jpeg')] py-[210px] bg-no-repeat bg-cover bg-center
+/* .banner{
+    @apply bg-[url('/images/bannerbg.jpeg')] py-[210px] bg-cover
 }
+
+.bannerContent{
+    @apply flex 
+}
+ */
+
+
+ .banner {
+    @apply bg-[url('/images/bannerbg.jpeg')] py-[200px] bg-cover bg-no-repeat font-montserrat;
+  }
+  
+  .bannerContent {
+    @apply  flex justify-between;
+  }
+  
+  .bannerText {
+    @apply text-left;
+  }
+
+  .bannerText .vaccinated{
+    @apply text-[24px] font-bold text-brandColor pb-[40px]
+  }
+
+  .bannerText .mainHeading{
+    @apply w-[551px] text-white text-[48px] font-extrabold  
+  }
+
+  .bannerText .website{
+    @apply text-brandColor
+  }
+
+  .bannerText .subheading{
+    @apply w-[603px] text-[24px] font-bold text-[rgba(255,255,255,0.70)] py-[50px]
+  }
+  
+  .bannerImg img {
+    @apply w-[622px] h-[617px];
+  }
+  
+  .buttonGroup {
+    @apply flex space-x-4;
+  }
+
+  .buttonGroup .get{
+    @apply hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
+  }
+
+  .buttonGroup .help{
+    @apply  hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
+  }
+  
+  .scheduleSection {
+    @apply flex items-center mt-[132px];
+  }
+  .scheduleSection span{
+    @apply text-white font-bold text-[24px]
+  }
+
+  .scheduleSection .clock{
+    @apply text-brandColor text-[24px] 
+  }
+
+  
+  .infoSection {
+    @apply py-4 px-6 rounded-md flex justify-between items-center mt-10 bg-[#1C2431] p-4 text-white text-sm;
+  }
+  
+  .infoSection .location{
+    @apply flex items-center space-x-2
+  }
+  
+  .location .locationtext{
+  }
