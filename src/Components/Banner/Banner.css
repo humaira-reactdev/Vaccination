@@ -60,17 +60,64 @@
   }
 
   .scheduleSection .clock{
-    @apply text-brandColor text-[24px] 
+    @apply text-brandColor text-[24px] mr-[20px]
   }
-
   
   .infoSection {
-    @apply py-4 px-6 rounded-md flex justify-between items-center mt-10 bg-[#1C2431] p-4 text-white text-sm;
+    @apply py-[56px] px-[40px] rounded-[20px] flex justify-between items-center mt-10 bg-[rgba(196,196,196,0.05)] p-4 text-white text-sm;
   }
   
-  .infoSection .location{
-    @apply flex items-center space-x-2
+  .infoSection .location {
+    @apply flex items-center space-x-4
+  }
+
+    .location .locationicon{
+    @apply text-[24px] text-brandColor
   }
   
   .location .locationtext{
+    @apply text-[24px] font-semibold
   }
+
+  .locationtext .headingLocation{
+    @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
+  }
+
+  .infoSection .date{
+    @apply flex items-center space-x-4
+  }
+
+  .date .dateicon{
+    @apply text-[24px] text-brandColor
+  }
+  
+  .date .datetext{
+    @apply text-[24px] font-semibold
+  }
+
+  .datetext .headingDate{
+    @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
+  }
+
+  .infoSection .vaccinetype{
+    @apply flex items-center space-x-4
+  }
+
+  .vaccinetype .vaccineicon{
+    @apply text-[24px] text-brandColor
+  }
+  
+  .vaccinetype .vaccinetext{
+    @apply text-[24px] font-semibold
+  }
+
+  .vaccinetext .headingvaccine{
+    @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
+  }
+
+  .submit{
+    @apply bg-[#00B0FF] text-white font-bold text-[24px] py-[20px] px-[25px] rounded-[20px]
+  }
+
+
+

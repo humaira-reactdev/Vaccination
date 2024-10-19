@@ -2,6 +2,9 @@ import React from 'react'
 import './Banner.css'
 import banimg from '../../assets/bannerimg.png'
 import { LuClock } from "react-icons/lu";
+import { GrLocation } from "react-icons/gr";
+import { CiCalendar } from "react-icons/ci";
+import { IoShieldOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
@@ -35,23 +38,32 @@ const Banner = () => {
 
         {/* Bottom Section with Location, Date, and Vaccine Info */}
         <div className="infoSection">
+          {/* ====location==== */}
           <div className="location">
-            <i className="fas fa-map-marker-alt text-[#00B0FF]"></i>
+            <GrLocation className='locationicon' />
             <div className='locationtext'>
-              <p>Location</p>
+              <p className='headingLocation'>Location</p>
               <p>Ikeja Lagos, Nigeria</p>
-            </div>
-            
+            </div>            
           </div>
-          <div className="date flex items-center space-x-2">
-            <i className="fas fa-calendar text-[#00B0FF]"></i>
-            <span>29 February, 2022</span>
+          {/* =========date============== */}
+          <div className="date">
+            <CiCalendar className='dateicon' />
+            <div className='datetext'>
+              <p className='headingDate'>Date</p>
+              <p>29 February, 2022</p>
+            </div>            
           </div>
-          <div className="vaccineType flex items-center space-x-2">
-            <i className="fas fa-syringe text-[#00B0FF]"></i>
-            <span>Mordena</span>
+          {/* ==========vaccine type======= */}
+          <div className="vaccinetype">
+            <IoShieldOutline  className='vaccineicon' />
+            <div className='vaccinetext'>
+              <p className='headingvaccine'>Vaccine type</p>
+              <p>Moderna</p>
+            </div>            
           </div>
-          <button className="bg-[#00B0FF] text-white py-2 px-6 rounded-full">Submit</button>
+
+          <button className="submit">Submit</button>
         </div>
       </div>
     </section>
