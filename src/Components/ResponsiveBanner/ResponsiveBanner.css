@@ -1,111 +1,111 @@
- .banner {
-    @apply bg-[url('/images/bannerbg.jpeg')] py-[200px] bg-cover bg-no-repeat font-montserrat hidden lg:block;
+.bannerRes {
+    @apply bg-[url('/images/bannerbg.jpeg')] py-[200px] bg-center font-montserrat;
   }
   
-  .bannerContent {
-    @apply  flex justify-between ;
-  }
+  /* .bannerContentRes {
+    @apply  flex justify-between;
+  } */
   
-  .bannerText {
+  .bannerTextRes {
     @apply text-left;
   }
 
-  .bannerText .vaccinated{
+  .bannerTextRes .vaccinatedRes{
     @apply text-[24px] font-bold text-brandColor pb-[40px]
   }
 
-  .bannerText .mainHeading{
-    @apply w-[551px] text-white text-[48px] font-extrabold  
+  .bannerTextRes .mainHeadingRes{
+    @apply w-[414px] text-white text-[36px] font-extrabold  
   }
 
-  .bannerText .website{
+  .bannerTextRes .websiteRes{
     @apply text-brandColor
   }
 
-  .bannerText .subheading{
+  .bannerTextRes .subheadingRes{
     @apply w-[603px] text-[24px] font-bold text-[rgba(255,255,255,0.70)] py-[50px]
   }
   
-  .bannerImg img {
-    @apply w-[622px] h-[617px];
+  .bannerImgRes img {
+    @apply w-[622px] h-[617px] mt-[55px];
   }
   
-  .buttonGroup {
+  .buttonGroupRes {
     @apply flex space-x-4;
   }
 
-  .buttonGroup .get{
+  .buttonGroupRes .getRes{
     @apply hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
   }
 
-  .buttonGroup .help{
+  .buttonGroupRes .helpRes{
     @apply  hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
   }
   
-  .scheduleSection {
+  .scheduleSectionRes {
     @apply flex items-center mt-[132px];
   }
-  .scheduleSection span{
+  .scheduleSectionRes span{
     @apply text-white font-bold text-[24px]
   }
 
-  .scheduleSection .clock{
+  .scheduleSectionRes .clock{
     @apply text-brandColor text-[24px] mr-[20px]
   }
   
-  .infoSection {
-    @apply py-[56px] px-[40px] rounded-[20px] hidden lg:flex justify-between items-center mt-10 bg-[rgba(196,196,196,0.05)] p-4 text-white text-sm;
+  .infoSectionRes {
+    @apply py-[56px] px-[40px] rounded-[20px] justify-between items-center mt-10 bg-[rgba(196,196,196,0.05)] p-4 text-white text-sm;
   }
   
-  .infoSection .location {
+  .infoSectionRes .locationRes {
     @apply flex items-center space-x-4
   }
 
-    .location .locationicon{
+    .locationRes .locationicon{
     @apply text-[24px] text-brandColor
   }
   
-  .location .locationtext{
+  .locationRes .locationtext{
     @apply text-[24px] font-semibold
   }
 
-  .locationtext .headingLocation{
+  .locationtextRes .headingLocation{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
-  .infoSection .date{
+  .infoSectionRes .date{
     @apply flex items-center space-x-4
   }
 
-  .date .dateicon{
+  .dateRes .dateicon{
     @apply text-[24px] text-brandColor
   }
   
-  .date .datetext{
+  .dateRes .datetext{
     @apply text-[24px] font-semibold
   }
 
-  .datetext .headingDate{
+  .datetextRes .headingDate{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
-  .infoSection .vaccinetype{
+  .infoSectionRes .vaccinetype{
     @apply flex items-center space-x-4
   }
 
-  .vaccinetype .vaccineicon{
+  .vaccinetypeRes .vaccineicon{
     @apply text-[24px] text-brandColor
   }
   
-  .vaccinetype .vaccinetext{
+  .vaccinetypeRes .vaccinetext{
     @apply text-[24px] font-semibold
   }
 
-  .vaccinetext .headingvaccine{
+  .vaccinetextRes .headingvaccine{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
-  .submit{
+  .submitRes{
     @apply bg-[#00B0FF] text-white font-bold text-[24px] py-[20px] px-[25px] rounded-[20px]
   }
 
