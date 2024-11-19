@@ -109,5 +109,12 @@
     @apply bg-[#00B0FF] text-white font-bold text-[24px] py-[20px] px-[25px] rounded-[20px]
   }
 
+  .vaccineNames{
+    @apply bg-white w-full h-[150px]
+  }
+
+  .vaccineLogo{
+    @apply flex items-center justify-between
+  }
 
 

@@ -62,10 +62,17 @@ const Banner = () => {
               <p>Moderna</p>
             </div>            
           </div>
-
-          <button className="submit">Submit</button>
-        </div>
+          <button className="submit">Submit</button>          
+        </div>        
       </div>
+      <div className='vaccineNames flex items-center'>
+            <div className='vaccineLogo container' >
+                <img src="./images/moderna.png" alt="" />
+                <img src="./images/pfizer.png" alt="" />
+                <img src="./images/astrazeneca.png" alt=""/>
+                <img src="./images/sinovac.png" alt="" />
+            </div>
+        </div>
     </section>
   )
 }

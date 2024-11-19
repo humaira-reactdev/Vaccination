@@ -1,5 +1,5 @@
 .bannerRes {
-    @apply bg-[url('/images/bannerbg.jpeg')] py-[200px] bg-center font-montserrat;
+    @apply bg-[url('/images/bannerbg.jpeg')] py-[200px] bg-center font-montserrat lg:hidden;
   }
   
   /* .bannerContentRes {
@@ -11,7 +11,7 @@
   }
 
   .bannerTextRes .vaccinatedRes{
-    @apply text-[24px] font-bold text-brandColor pb-[40px]
+    @apply text-[18px] font-bold text-brandColor pb-[40px]
   }
 
   .bannerTextRes .mainHeadingRes{
@@ -23,27 +23,27 @@
   }
 
   .bannerTextRes .subheadingRes{
-    @apply w-[603px] text-[24px] font-bold text-[rgba(255,255,255,0.70)] py-[50px]
+    @apply w-[502px] text-[20px] font-bold text-[rgba(255,255,255,0.70)] py-[50px]
   }
   
   .bannerImgRes img {
     @apply w-[622px] h-[617px] mt-[55px];
   }
   
-  .buttonGroupRes {
+  .buttonGroupRes{
     @apply flex space-x-4;
   }
 
   .buttonGroupRes .getRes{
-    @apply hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
+    @apply hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[20px] rounded-[20px] w-[200px]
   }
 
   .buttonGroupRes .helpRes{
-    @apply  hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[24px] rounded-[20px] w-[200px]
+    @apply  hover:bg-[#00B0FF] ease-linear duration-100 bg-[rgba(196,196,196,0.1)] text-white py-[20px] px-[25px] font-bold text-[20px] rounded-[20px] w-[200px]
   }
   
   .scheduleSectionRes {
-    @apply flex items-center mt-[132px];
+    @apply flex items-center mt-[39px];
   }
   .scheduleSectionRes span{
     @apply text-white font-bold text-[24px]
@@ -54,7 +54,7 @@
   }
   
   .infoSectionRes {
-    @apply py-[56px] px-[40px] rounded-[20px] justify-between items-center mt-10 bg-[rgba(196,196,196,0.05)] p-4 text-white text-sm;
+    @apply py-[56px] px-[40px] rounded-[20px] justify-between items-center mt-[32px] bg-[rgba(196,196,196,0.05)] p-4 text-white text-sm;
   }
   
   .infoSectionRes .locationRes {
@@ -65,11 +65,11 @@
     @apply text-[24px] text-brandColor
   }
   
-  .locationRes .locationtext{
+  .locationRes .locationtextRes{
     @apply text-[24px] font-semibold
   }
 
-  .locationtextRes .headingLocation{
+  .locationtextRes .headingLocationRes{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
@@ -81,11 +81,11 @@
     @apply text-[24px] text-brandColor
   }
   
-  .dateRes .datetext{
+  .dateRes .datetextRes{
     @apply text-[24px] font-semibold
   }
 
-  .datetextRes .headingDate{
+  .datetextRes .headingDateRes{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
@@ -96,12 +96,12 @@
   .vaccinetypeRes .vaccineicon{
     @apply text-[24px] text-brandColor
   }
-  
-  .vaccinetypeRes .vaccinetext{
+   
+  .vaccinetypeRes .vaccinetextRes{
     @apply text-[24px] font-semibold
   }
 
-  .vaccinetextRes .headingvaccine{
+  .vaccinetextRes .headingvaccineRes{
     @apply text-[rgba(255,255,255,0.5)] leading-[29.26px]
   }
 
