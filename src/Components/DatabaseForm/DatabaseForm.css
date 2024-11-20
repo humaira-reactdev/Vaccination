@@ -1,0 +1,44 @@
+.databaseform {
+    @apply bg-[url('/images/formbackground.png')] bg-cover bg-no-repeat font-montserrat hidden lg:block;
+  }
+  
+  .heading {
+    @apply w-full h-[101px] bg-[rgba(196,196,196,0.10)] rounded-t-[20px];
+  }
+  
+  .heading h2 {
+    @apply text-white text-[24px] font-bold pt-[36px] pl-[96px];
+  }
+
+  .form{
+    @apply h-[240px] w-full bg-[rgba(196,196,196,0.05)] rounded-b-[20px];
+  }
+  
+  .inputFields {
+    @apply w-full flex flex-col lg:flex-row justify-center gap-4 pt-[35px];
+  }
+  
+  .input-field {
+    @apply w-[540px] py-[20px] pl-[24px] bg-transparent border border-[#C4C4C4] rounded-[20px] text-white text-[24px] outline-cyan-400;
+  }
+  
+  .input-field::placeholder {
+    @apply text-gray-300;
+  }
+  
+  .btn-check {
+    @apply bg-[rgba(196,196,196,0.10)] border-[3px] border-cyan-400  text-cyan-400 text-[24px] rounded-[20px] py-[20px] px-[46.5px] font-bold hover:bg-cyan-400 hover:text-white transition duration-300;
+  }
+  
+  .footer {
+    @apply w-full h-[70px] flex items-center justify-center text-center rounded-b-[20px];
+  }
+  
+  .footer p {
+    @apply text-[#17C2EC] text-[24px] font-bold bg-[rgba(196,196,196,0.10)] w-[1280px] py-[20px] rounded-[20px] mt-[35px];
+  }
+  
+  .footer-link {
+    @apply text-cyan-400 underline hover:text-cyan-300;
+  }
+  
