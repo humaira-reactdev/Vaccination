@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../Components/Banner/Banner'
 import ResponsiveBanner from '../Components/ResponsiveBanner/ResponsiveBanner'
 import DatabaseForm from '../Components/DatabaseForm/DatabaseForm'
+import WhyGetVaccinated from '../Components/WhyGetVaccinated/WhyGetVaccinated'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner/>
       <ResponsiveBanner/>
       <DatabaseForm/>
+      <WhyGetVaccinated/>
     </>
   )
 }

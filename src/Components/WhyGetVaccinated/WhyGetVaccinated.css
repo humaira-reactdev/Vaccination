@@ -1,0 +1,31 @@
+.why{
+    @apply bg-[url('/images/whybg.png')] bg-cover bg-no-repeat font-montserrat hidden lg:block;
+}
+
+.vaccinatedHeading{
+    @apply text-white font-bold text-[47.9px] w-[503.95px] 
+}
+
+.text{
+    @apply flex justify-between pt-[57.88px]
+}
+
+.textVaccinated{
+    @apply text-[19.96px] text-[rgba(255,255,255,0.5)] w-[533px]
+}
+
+.cards{
+    @apply flex justify-between
+}
+
+.immune{
+    @apply mt-[39.92px] w-[449.06px] h-[498.96px] bg-[rgba(196,196,196,0.21)] rounded-tl-[49.96px] rounded-tr-[149.69px] rounded-b-[49.9px]
+}
+
+.minimize, .protect{
+    @apply w-[349.27px] h-[349.27px] bg-transparent border-2 border-[rgba(255,255,255,0.2)] rounded-[49.9px] mt-[189.6px]
+}
+
+
+
+
