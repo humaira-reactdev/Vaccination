@@ -19,11 +19,53 @@
 }
 
 .immune{
-    @apply mt-[39.92px] w-[449.06px] h-[498.96px] bg-[rgba(196,196,196,0.21)] rounded-tl-[49.96px] rounded-tr-[149.69px] rounded-b-[49.9px]
+    @apply mt-[39.92px] w-[449.06px] h-[498.96px] bg-[rgba(196,196,196,0.21)] rounded-tl-[49.96px] rounded-tr-[149.69px] rounded-b-[49.9px] pl-[39.92px] 
 }
 
+.shieldbg{
+    @apply bg-[rgba(196,196,196,0.1)] w-[99px] h-[99px] flex justify-center items-center rounded-[29px] my-[39.92px]
+}
+
+.shieldIcon{
+    @apply text-[#17C2EC] text-[60px]
+}
+
+.immuneHeading{
+    @apply text-[#17C2EC] text-[23.95px] w-[288.4px] font-bold 
+}
+
+.immuneText{
+    @apply w-[352.27px] text-[#FFFFFF] text-[17.96px] mt-[29.94px] font-medium
+}
+
+.immune .readMore{
+    @apply flex items-center gap-[3.99px] text-[#17C2EC] text-[17.96px] font-bold mt-[39.92px] ml-[39.92]
+}
+
+
+
 .minimize, .protect{
-    @apply w-[349.27px] h-[349.27px] bg-transparent border-2 border-[rgba(255,255,255,0.2)] rounded-[49.9px] mt-[189.6px]
+    @apply w-[349.27px] h-[349.27px] bg-transparent border-2 border-[rgba(255,255,255,0.2)] rounded-[49.9px] mt-[189.6px] pl-[39.92px] pt-[39.92px]
+}
+
+.peoplebg, .protectbg{
+    @apply w-[69.85px] h-[69.85px] bg-[rgba(196,196,196,0.1)] flex justify-center items-center rounded-[20px]
+}
+
+.peopleicon, .protecticon{
+    @apply text-[48.9px] text-white
+}
+
+.minimizeheading, .protectheading{
+    @apply text-white text-[23.96px] font-bold w-[256.47px] mt-[39.92px]
+}
+
+.minimize .readMore{
+    @apply flex  items-center gap-[3.99px] mt-[52.89px] text-[rgba(255,255,255,0.5)] 
+}
+
+.protect .readMore{
+    @apply flex  items-center gap-[3.99px] mt-[81.83px] text-[rgba(255,255,255,0.5)] 
 }
 
 
