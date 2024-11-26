@@ -1,5 +1,5 @@
 .why{
-    @apply bg-[url('/images/whybg.png')] bg-cover bg-no-repeat font-montserrat hidden lg:block;
+    @apply bg-[url('/images/whybg.png')] bg-cover bg-no-repeat font-montserrat hidden lg:block pb-[79.83px];
 }
 
 .vaccinatedHeading{

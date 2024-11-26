@@ -52,7 +52,6 @@ const WhyGetVaccinated = () => {
                     <h3>Read More</h3>
                     <FaArrowRight />
                 </div>
-
                 </div>
             </div>     
         </div>

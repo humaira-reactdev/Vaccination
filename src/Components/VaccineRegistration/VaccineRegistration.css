@@ -1,0 +1,50 @@
+.registration{
+    @apply font-montserrat pt-[28px]
+}
+
+.form h3{
+    @apply text-[48px] font-bold w-[450px]
+}
+
+.labelName, .labelPhone{
+    @apply text-black font-bold text-[24px] mt-[52px] block
+}
+
+.nameInput{
+    @apply w-[650px] py-[20px] pl-[30px] bg-[rgba(11,21,60,0.15)] rounded-[20px] outline-none text-[24px]
+}
+
+.notifications{
+    @apply w-[652px] font-medium text-[20px] text-[rgba(0,0,0,0.5)] mt-[20px] 
+}
+
+.phoneInput{
+    @apply flex mt-[20px] mb-[40px]
+}
+
+.phoneNumber{
+    @apply w-[400px] bg-[rgba(11,21,60,0.15)] rounded-[20px] outline-none py-[20px] pl-[20px] text-[24px] mr-[36px]
+}
+
+.verify{
+    @apply bg-[#17C2EC] py-[20px] px-[70px] text-white text-[24px] font-bold rounded-[20px]
+}
+
+.phoneSubmit{
+    @apply bg-[#17C2EC] py-[20px] px-[279px] text-white text-[24px] font-bold rounded-[20px]
+}
+
+.formFooter{
+    @apply flex gap-[46px] ml-[110px] mt-[40px]
+}
+
+.alreadyRegistered{
+    @apply text-[20px] text-[rgba(0,0,0,0.5)] font-semibold
+}
+
+.status{
+    @apply text-[#17C2EC] text-[20px] font-semibold
+}
+
+
+
