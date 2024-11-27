@@ -23,8 +23,11 @@ const VaccineRegistration = () => {
             <p className='status'>Check your status</p>
           </div>           
         </div>        
-        <div className='image'>
-        </div>
+        <div className='vaccineimage relative'>
+            <img src="./images/virus.png" alt="" className='virus absolute left-[-10%] top-[-5%]' />
+            <h2 className='vaccineHeading'>COVID-19 Vaccine</h2>
+            <img src="./images/vaccine.png" alt="" className='vaccine'/>
+        </div> 
       </div>
      </div>    
     </>

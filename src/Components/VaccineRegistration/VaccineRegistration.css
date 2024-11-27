@@ -23,7 +23,7 @@
 }
 
 .phoneNumber{
-    @apply w-[400px] bg-[rgba(11,21,60,0.15)] rounded-[20px] outline-none py-[20px] pl-[20px] text-[24px] mr-[36px]
+    @apply w-[400px] bg-[rgba(11,21,60,0.15)] rounded-[20px] outline-none py-[20px] pl-[25px] text-[24px] mr-[36px]
 }
 
 .verify{
@@ -45,6 +45,19 @@
 .status{
     @apply text-[#17C2EC] text-[20px] font-semibold
 }
+
+.vaccineimage{
+    @apply w-[380px] h-[550px] bg-[#0B153C] rounded-[20px] mt-[100px]
+}
+
+.vaccine{
+    @apply mt-[53px]
+}
+
+.vaccineHeading{
+    @apply text-white text-[24px] w-[116px] mt-[40px] font-bold text-center mx-auto
+}
+
 
 
 
