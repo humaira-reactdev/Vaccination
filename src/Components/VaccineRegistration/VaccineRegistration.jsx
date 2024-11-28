@@ -5,7 +5,7 @@ const VaccineRegistration = () => {
   return (
     <>
      <div className='registration'>
-      <div className='container flex'>
+      <div className='container'>
         <div className='form'>
           <h3>Get your vaccine registration today</h3>
           <label htmlFor="" className='labelName'>Patient's Full Name</label><br />

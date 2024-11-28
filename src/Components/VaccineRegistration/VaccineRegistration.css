@@ -1,5 +1,9 @@
 .registration{
-    @apply font-montserrat pt-[28px]
+    @apply font-montserrat pt-[28px] mb-[200px];
+}
+
+.registration .container{
+    @apply flex flex-wrap lg:flex-nowrap justify-between;
 }
 
 .form h3{

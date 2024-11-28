@@ -1,0 +1,23 @@
+.symptoms{
+    @apply bg-[url('/images/symptomsbg.png')] bg-cover bg-no-repeat font-montserrat lg:block pt-[67px];
+}
+
+.prevention{
+    @apply text-white font-bold text-[24px] text-center
+}
+
+.covid{
+    @apply text-white font-extrabold text-[48px] text-center
+}
+
+.covid span{
+    @apply text-[#17C2EC]
+}
+
+.description{
+    @apply text-[#FFFFFF80] w-[953px] mx-auto text-center text-[24px] mt-[40px]
+}
+
+.symptomsimg{
+    @apply mx-auto mt-[179px]
+}
