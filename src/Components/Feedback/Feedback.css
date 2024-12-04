@@ -1,0 +1,59 @@
+.feedback{
+    @apply bg-[url('/images/feedbackbg.png')] bg-cover bg-no-repeat font-montserrat hidden lg:block pt-[57px]; 
+}
+
+.feedback h3{
+    @apply text-[#17C2EC] text-[24px] font-bold text-center
+}
+
+.feedback h2{
+    @apply text-black text-center text-[48px] font-extrabold mt-[20px]
+}
+
+.feedback .description{
+    @apply text-[#00000080] text-[24px]
+}
+
+.feedbackCards{
+    @apply flex mt-[100px] justify-between
+}
+
+.card2{
+    @apply bg-[#17C2EC] w-[400px] h-[250px] rounded-[20px] pt-[30px]
+}
+
+.card1, .card3{
+    @apply bg-[#C4C4C480] w-[400px] h-[250px] rounded-[20px] pt-[30px]
+}
+
+.picname{
+    @apply flex justify-center gap-[20px]
+}
+
+.nameplace .name{
+    @apply text-black font-bold text-[24px] 
+}
+
+.nameplace .location{
+    @apply text-[#00000080] font-bold text-[14px]
+}
+
+.testimony{
+    @apply text-center w-[333px] mt-[40px] text-[18px] mx-auto
+}
+
+.testimony span{
+    @apply text-[#17C2EC]
+}
+
+.testimony2{
+    @apply text-center w-[333px] mt-[40px] text-[18px] mx-auto text-white
+}
+
+.name2{
+    @apply font-bold text-[24px] text-white
+}
+
+.location2{
+    @apply text-[#FFFFFFBF] font-bold text-[14px]
+}

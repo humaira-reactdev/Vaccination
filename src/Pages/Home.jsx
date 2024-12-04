@@ -5,6 +5,7 @@ import DatabaseForm from '../Components/DatabaseForm/DatabaseForm'
 import WhyGetVaccinated from '../Components/WhyGetVaccinated/WhyGetVaccinated'
 import VaccineRegistration from '../Components/VaccineRegistration/VaccineRegistration'
 import Symptoms from '../Components/Symptoms/Symptoms'
+import Feedback from '../Components/Feedback/Feedback'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhyGetVaccinated/>
       <VaccineRegistration/>
       <Symptoms/>
+      <Feedback/>
     </>
   )
 }
